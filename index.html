@@ -12,20 +12,24 @@
 <body>
 
     <header>
-        <h1>Bizz's Todo List</h1>
+        <h1>I got sh*t to do</h1>
     </header>
 
     <form>
-        <input placeholder="Add a todo" type="text" class="todo-input">
+
         <button class="todo-button" type="submit">
-            <i class="fas fa-plus-square"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+                <path id="Plus" d="M29.269,49.769a1.769,1.769,0,0,0-3.538,0v7.962H17.769a1.769,1.769,0,1,0,0,3.538h7.962v7.962a1.769,1.769,0,0,0,3.538,0V61.269h7.962a1.769,1.769,0,0,0,0-3.538H29.269Z" transform="translate(-16 -48)" fill="#e0afff"/>
+              </svg>
         </button>
+        <input placeholder="Whatcha gon do?" type="text" class="todo-input">
+        
     </form>
-<div class="todo-container"></div>
+<div class="todo-container">
 <ul class="todo-list">
     
 </ul>
-
+</div>
 
     <script src="./script.js"></script>
 </body>
