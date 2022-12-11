@@ -13,6 +13,7 @@ body {
 
 header {
     font-size: 1.5rem; 
+    padding-top: 120px;
 }
 
 header, form {
@@ -147,7 +148,8 @@ button.checked-box + li {
 }
 
 .fall {
-    transform: translateY(8rem) rotateZ(20deg);
+    transform: translateX(18rem);
     opacity: 0;
 }
 
+/* translateY(8rem) rotateZ(20deg) */
