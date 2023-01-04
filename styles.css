@@ -153,3 +153,84 @@ button.checked-box + li {
 }
 
 /* translateY(8rem) rotateZ(20deg) */
+
+/* FOOTER */
+.footer a {
+    margin: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.footer svg {
+    filter: invert(67%) sepia(8%) saturate(0%) hue-rotate(269deg) brightness(93%) contrast(93%);
+}
+
+svg.active-svg {
+    filter: invert(54%) sepia(21%) saturate(6201%) hue-rotate(85deg) brightness(119%) contrast(97%);
+}
+
+.dot {
+    height: 9px;
+    width: 9px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  a.active-svg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* FAQ */
+
+.faq-container {
+margin: auto;
+width: 80%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.faq-panel {
+    display: none;
+    width: 60%;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: auto;
+  }
+
+  .faq-btn {
+    padding: 30px;
+    width: 60%;
+  }
+
+.faq-btn::after {
+    content: url("data:image/svg+xml,%3Csvg width='16' height='10' viewBox='0 0 16 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.12891 1.06982L8.12891 8.06982L15.1289 1.06982' stroke='white' stroke-width='2'/%3E%3C/svg%3E");
+    position: absolute;
+    left: 50px;
+  }
+
+
+.faq-btn.active::after {
+    content: url("data:image/svg+xml,%3Csvg width='16' height='10' viewBox='0 0 16 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.12891 1.06982L8.12891 8.06982L15.1289 1.06982' stroke='white' stroke-width='2'/%3E%3C/svg%3E");
+    position: absolute;
+    left: 50px;
+    transform: rotate(180deg);
+  }
+
+  h1 {
+    margin-bottom: 50px;
+  }
